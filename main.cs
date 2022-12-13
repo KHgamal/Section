@@ -18,3 +18,14 @@ public Person (string name,int age){
   
  public abstract void print ();
 }
+public class Student :Person{
+    public int Year;
+    public float Gpa;
+    public Student (string name,int age,float gpa ):base(name,age){
+        Year=year;
+        Gpa=gpa;
+    }
+    public override void Print(){
+        Console.WriteLine($"My name is{Name},my age is{Age},and gpa is {Gpa}");
+    }
+}
