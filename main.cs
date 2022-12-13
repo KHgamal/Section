@@ -5,7 +5,7 @@ public class Hello
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine ("Hello Mono World");
+        Database database=new Database();
     }
 }
 public abstract class Person {
@@ -29,3 +29,13 @@ public class Student :Person{
         Console.WriteLine($"My name is{Name},my age is{Age},and gpa is {Gpa}");
     }
 }
+public class Database{
+    public Person[] People=new Person[10];
+    public int i=0;
+    public void AddStudent(Student student){
+        if(i<=10)
+        People[i++]=student;
+    }
+    
+}
+
