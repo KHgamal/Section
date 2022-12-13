@@ -21,7 +21,7 @@ public Person (string name,int age){
 public class Student :Person{
     public int Year;
     public float Gpa;
-    public Student (string name,int age,float gpa ):base(name,age){
+    public Student (string name,int age,int year,float gpa ):base(name,age){
         Year=year;
         Gpa=gpa;
     }
