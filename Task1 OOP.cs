@@ -1,3 +1,24 @@
+/*Task (1)
+/1) Create an abstract Person class containing the following members: -
+    - Name: string
+    - Age: int
+    - ctor(name, age)
+    - abstract Print(): void
+
+2) Create a Student class extends from Person class containing the following members: -
+    - Year: int
+    - Gpa: float
+    - ctor(name, age, year, gpa)
+    - override Print(): void
+        = Should print out "My name is " + Name + ", my age is " + Age + " and my gpa is " + Gpa;
+
+3) Create a Database class containing the following members: -
+    - People: Person[]
+    - AddStudent(Student student): void
+        = Should add a student to the People array
+
+4) Use the Database class in your Main() method to take the students details from the user and add it.*/
+
 using System;
 namespace MyApplication;
 
