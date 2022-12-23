@@ -1,0 +1,17 @@
+using System;
+
+class Rectangle
+{
+    public static int Main()
+    {
+        
+        Console.Write("Enter the length: ");
+       var length = Convert.ToSingle(Console.ReadLine());
+       Console.Write("Enter the width: ");
+       var width = Convert.ToSingle(Console.ReadLine());
+
+        Console.WriteLine("Perimeter of Rectangle: "+2 * (length + width));
+
+        return 0;
+    }
+}
