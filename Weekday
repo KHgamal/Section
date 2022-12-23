@@ -1,0 +1,37 @@
+using System;
+
+class weekday
+{
+    public static int Main()
+    {
+        Console.Write("Enter the n.of weekday: ");
+       var n =Convert.ToInt32(Console.ReadLine());
+     switch(n){
+         case 1:
+         Console.Write("Saturday ");
+         break;
+          case 2:
+          Console.Write("Sunday ");
+         break;
+          case 3:
+          Console.Write("Monday ");
+         break;
+          case 4:
+          Console.Write("Tuesday ");
+         break;
+          case 5:
+          Console.Write("wednesday ");
+         break;
+          case 6:
+          Console.Write("Thursday ");
+         break;
+          case 7:
+          Console.Write("Friday ");
+         break;
+          default:
+         break;
+     }
+
+        return 0;
+    }
+}
