@@ -1,0 +1,15 @@
+using System;
+
+class Circle
+{
+    public static int Main()
+    {
+        
+        Console.Write("Enter the radius: ");
+       var radius = Convert.ToSingle(Console.ReadLine());
+
+        Console.WriteLine("Perimeter of Circle: "+2 * 3.14 * radius);
+
+        return 0;
+    }
+}
