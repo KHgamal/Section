@@ -1,0 +1,17 @@
+using System;
+  
+class Program
+	{
+	  public static void Main(string[] args)
+		{
+		    //8
+			string str = "open source software";
+          int count=0;
+				for(int i=0;i<str.Length;i++){
+				  if(str[i]=='a'||str[i]=='e'||str[i]=='o'||str[i]=='u'||str[i]=='i'){
+				      count++;
+				  }
+				}
+				Console.Write(count);
+		}
+	}
