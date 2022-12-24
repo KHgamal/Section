@@ -1,0 +1,22 @@
+using System;
+
+class Obsolete
+{
+    /*An obsolete attribute, in C#, is a declarative tag used while declaring a type or a member of a type to indicate that it should no longer be used
+Obsolete attributes are used to display an error or warning during compilation with an optional message to alert the developer that the given type or its member should not be used in the code*/
+    [Obsolete("Use Display() method")]
+    static void Print()
+    {
+    }
+    
+    static void Display()
+    {
+        Console.WriteLine(" Use Display method in place of Print() method");
+    }
+
+    static void Main(string[] args)
+    {
+        Print();
+        Display();
+    }
+}
