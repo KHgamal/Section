@@ -1,0 +1,21 @@
+using System;
+  
+class Program
+	{
+	  public static void Main(string[] args)
+		{
+		    //20
+			string str = "open source software";
+            string newStr="";
+           //pad 3 right
+				for(int i=0;i<str.Length+3;i++){
+				    if(i>=20){
+				       newStr+=" " ;
+				    }
+				    else{
+				      newStr+=str[i];  
+				    }
+				}
+				Console.Write(newStr);
+		}
+	}
